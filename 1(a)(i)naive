@@ -2,6 +2,8 @@ def naive(a, n):
     result = 1
     for _ in range(n):
         result *= a
-    print(result)
+    return result
 
-naive(2,6)
+
+result = naive(2,6)
+print(result)
