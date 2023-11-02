@@ -1,0 +1,13 @@
+def divideNconquer(a, n):
+    if n==0:# trivial case or ending clause to recursion
+        return 1
+    elif (n%2)==0:# n is even
+        half = divideNconquer(a, n//2)
+        return half * half
+    elif (n%2)!=0:# n is odd
+        half = divideNconquer(a, (n-1)//2)
+        return a * half * half
+
+
+result = divideNconquer(2,6)
+print(result)
