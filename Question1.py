@@ -74,6 +74,6 @@ plt.ylabel('time/seconds')
 plt.legend()
 plt.show()
 
-1(d) 
+#1(d) 
 #explained in the report
 
